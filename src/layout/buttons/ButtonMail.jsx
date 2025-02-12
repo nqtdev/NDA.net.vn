@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import Mail from 'assets/icon_buttons/seenMail.webp'
 
-const ButtonMail = ({emailAddress}) => {
+const ButtonMail = () => {
   return (
     <div className='button_mail animate-bounce'>
-      <a href={`mailto:${emailAddress}`}>
+      <a href={`mailto:nda.ldt@gmail.com`}>
         <img className='w-[70%] xl:w-[80%]' src={Mail} alt='' />
       </a>
     </div>

@@ -1,16 +1,16 @@
-import {useState} from 'react'
+// import {useState} from 'react'
 import {Navbar} from 'flowbite-react'
 import {NavLink} from 'react-router-dom'
 // import logo from 'assets/logo/logo_sw.webp'
 
 const LayoutHeader = () => {
   // Quản lý trạng thái mở/đóng của menu
-  const [isOpen, setIsOpen] = useState(false)
+  // const [isOpen, setIsOpen] = useState(false)
 
   // Hàm để toggle menu
-  const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen)
+  // }
 
   // Hàm để đóng menu
   // const closeMenu = () => {
@@ -27,7 +27,7 @@ const LayoutHeader = () => {
           </Navbar.Brand>
 
           {/* Nút Toggle Tùy Chỉnh cho Mobile */}
-          <button
+          {/* <button
             className='lg:hidden text-gray-500 hover:text-gray-700 focus:outline-none'
             onClick={toggleMenu}
             aria-label='Toggle navigation'
@@ -47,7 +47,7 @@ const LayoutHeader = () => {
                 }
               ></path>
             </svg>
-          </button>
+          </button> */}
 
           {/* Menu Collapse */}
         </Navbar>

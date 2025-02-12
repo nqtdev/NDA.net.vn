@@ -5,6 +5,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/free-mode'
 import PropTypes from 'prop-types'
+
 const SlideShowSwiper = ({slidesShow}) => {
   return (
     <div>
