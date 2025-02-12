@@ -1,0 +1,63 @@
+@import 'flowbite';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    overflow-x: hidden;
+  }
+}
+/* body {
+  @apply font-mulish;
+} */
+
+.style-address {
+  @apply mb-3 font-bold uppercase text-white;
+}
+
+/* style thẻ h2 của các section */
+.base_title {
+  @apply my-6 text-center text-3xl font-bold text-[#2582BD] lg:my-14 lg:text-4xl;
+}
+
+/* style các đầu mục của : Giá trị chúng tôi đem lại  */
+.sticker_check {
+  @apply my-2 flex items-center;
+}
+.sticker_describe {
+  @apply text-sm font-medium text-white lg:text-2xl overflow-hidden;
+}
+
+/* style các mục của : Thao tác 4 bước  */
+.operation_text {
+  @apply text-2xl font-bold text-blue-700;
+}
+.operation_img {
+  @apply m-auto w-[90%] p-4;
+}
+
+/* @Style logo các đối tác  */
+@keyframes slide {
+  from {
+    transform: translateX(-5%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* @ Pages Mô tả thông tin sản phẩm CheckID-ET100 */
+.table_body {
+  @apply border border-gray-300 bg-main-table p-3 text-left text-xl text-black;
+}
+.table_specification {
+  @apply border border-gray-300 p-2 text-left font-roboto text-sm; /* Đảm bảo rằng font 'roboto' đã được định nghĩa */
+}
+.table_item {
+  @apply border border-gray-300 bg-main-table/40 p-2 text-left font-roboto text-sm; /* Đảm bảo rằng font 'roboto' đã được định nghĩa */
+}
