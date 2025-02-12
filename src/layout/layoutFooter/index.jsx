@@ -77,7 +77,7 @@ const LayoutFooter = () => {
           <section className='col-span-2'>
             <div className='mb-10 text-center'>
               <span className='style-address text-2xl uppercase'>
-                công ty tnhh giải pháp và ứng dựng dữ liệu quốc gia nda{' '}
+                công ty tnhh giải pháp và ứng dụng dữ liệu quốc gia nda{' '}
               </span>
             </div>
             <div className='mb-4'>
