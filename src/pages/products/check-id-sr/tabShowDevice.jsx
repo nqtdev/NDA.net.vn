@@ -10,12 +10,12 @@ const TabShowDevice = () => {
   const items = [
     {
       key: '1',
-      label: 'Thiết bị đầu đọc thẻ có Camera',
+      label: 'Có Camera',
       children: <SlideShowSwiper slidesShow={SlideProductCam} />,
     },
     {
       key: '2',
-      label: 'Thiết bị đầu đọc thẻ không Camera',
+      label: 'Không Camera',
       children: <SlideShowSwiper slidesShow={SlideProductNoCam} />,
     },
     // {
