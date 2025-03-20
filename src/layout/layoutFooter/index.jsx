@@ -75,40 +75,10 @@ const LayoutFooter = () => {
             </div>
           </section>
           <section className='col-span-2'>
-            <div className='mb-10 text-center'>
+            <div className='mb-10 text-center mt-14'>
               <span className='style-address text-2xl uppercase'>
                 công ty tnhh giải pháp và ứng dụng dữ liệu quốc gia nda{' '}
               </span>
-            </div>
-            <div className='mb-4'>
-              <h4 className='style-address'>Địa chỉ trụ sở chính</h4>
-              <div className='flex'>
-                <div>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    fill='none'
-                    viewBox='0 0 24 24'
-                    strokeWidth='1.5'
-                    stroke='currentColor'
-                    className='size-6 text-white'
-                  >
-                    <path
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      d='M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z'
-                    />
-                    <path
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      d='M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z'
-                    />
-                  </svg>
-                </div>
-                <span className='text-white'>
-                  Số 136 Nguyễn Khánh Toàn, Phường Quan Hoa, Quận Cầu Giấy, Thành phố Hà Nội, Việt
-                  Nam
-                </span>
-              </div>
             </div>
           </section>
         </div>
